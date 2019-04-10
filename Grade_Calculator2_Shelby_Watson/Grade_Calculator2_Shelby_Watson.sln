@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.17
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grade_Calculator2_Shelby_Watson", "Grade_Calculator2_Shelby_Watson.csproj", "{723956FA-E78E-4946-B9F6-CD3D8F4D8DC8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{723956FA-E78E-4946-B9F6-CD3D8F4D8DC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{723956FA-E78E-4946-B9F6-CD3D8F4D8DC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{723956FA-E78E-4946-B9F6-CD3D8F4D8DC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{723956FA-E78E-4946-B9F6-CD3D8F4D8DC8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

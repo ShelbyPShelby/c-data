@@ -1,0 +1,18 @@
+ INSERT INTO employeessppss
+	(first, last, age, address, city, state)
+	VALUES ( 'Jonie', 'Weber', 24, '4581 Raven Ave', 'Chicago', 'Illinois', 'Receptionist', 45000);
+	
+ INSERT INTO employeessppss
+	(first, last, age, address, city, state)
+	VALUES ( 'Dirk', 'Weber', 24, '4581 Raven Ave', 'Chicago', 'Illinois', 'Receptionist', 45000);
+	
+UPDATE employeessppss
+SET last = 'Weber-Williams'
+WHERE first = 'Jonie' and
+last = 'Weber';
+
+UPDATE employeessppss
+SET age = age + 1
+WHERE first = 'Dirk' and 
+last = 'Smith';
+	
