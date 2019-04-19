@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataStruct_CSharp_Shelby", "DataStruct_CSharp_Shelby\DataStruct_CSharp_Shelby.csproj", "{8AEAC6EA-174E-4BA8-9E9B-3D89BCC1E9AA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp_Game1_Shelby", "CSharp_Game1_Shelby.csproj", "{065C1D20-AFFE-43CA-AEDF-BB4473CC20E9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8AEAC6EA-174E-4BA8-9E9B-3D89BCC1E9AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8AEAC6EA-174E-4BA8-9E9B-3D89BCC1E9AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8AEAC6EA-174E-4BA8-9E9B-3D89BCC1E9AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8AEAC6EA-174E-4BA8-9E9B-3D89BCC1E9AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{065C1D20-AFFE-43CA-AEDF-BB4473CC20E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{065C1D20-AFFE-43CA-AEDF-BB4473CC20E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{065C1D20-AFFE-43CA-AEDF-BB4473CC20E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{065C1D20-AFFE-43CA-AEDF-BB4473CC20E9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {43A29AD0-FC24-4688-B5A8-D5ED29914E6F}
+		SolutionGuid = {8BAFA569-17DB-43A3-8BC1-86F27AF57C3C}
 	EndGlobalSection
 EndGlobal
