@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Text.RegularExpressions;
 
 namespace RE_CSharp_Shelby
@@ -40,7 +41,34 @@ namespace RE_CSharp_Shelby
             Console.WriteLine("Original String {0}", input);
             Console.WriteLine("Replacement String: {0}", result);
 
-            
+            //Create a C# regex to parse email
+            //sample: "Find me at IamACoolMama22@yahoo.com or person@cool.org or me@yahoo.biz"
+
+            string emailPat = @"\S*\b@\S*\b";
+
+            string emailString = "Find me at IamACoolMama22@yahoo.com or person@cool.org or me@yahoo.biz";
+            string test = "high@gmail.com";
+
+            showMatch(emailString, emailPat);
+
+            //parse phone number
+
+            string phoneString = "Dr. Watson left amessage to call 1-555-788-1874 or 1-257-577-5778";
+            string phonePat = @"\(?\d{3}\)?-? *\d{3}-? *-?\d{4}";
+
+            showMatch(phoneString, phonePat);
+
+            //parse SSN
+
+            string SSNString = "MY SSN is 123-23-4568";
+            string SSNPat = @"\(?\d{3}\)?-? *\d{2}-? *-?\d{4}";
+
+            showMatch(SSNString, SSNPat);
+
+            //prevent SQL injection
+
+
+
         }
     }
 }
